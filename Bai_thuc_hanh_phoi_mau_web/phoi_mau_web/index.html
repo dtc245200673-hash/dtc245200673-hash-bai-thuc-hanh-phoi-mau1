@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thực hành phối màu đơn tông - Xanh dương</title>
+<style>
+:root{--main:#00ADEE;--background:#00BFF2;--highlight:#00ADEE;--content:#BDD7F7;--footer:#C6E9FA;--ink:#111827}
+*{box-sizing:border-box}body{margin:0;background:var(--background);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+header{background:var(--main);padding:18px 7%;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;border-bottom:3px solid #0785b6}
+.logo{font-size:25px;font-weight:850;letter-spacing:.5px;color:#080f1a}nav{display:flex;gap:18px;flex-wrap:wrap}nav a{color:#071e29;text-decoration:none;font-weight:700}
+main{max-width:1100px;margin:auto;padding:35px 18px 55px}.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:22px;align-items:center}.eyebrow{font-weight:700;letter-spacing:2px}.hero h1{font-size:clamp(31px,5vw,54px);line-height:1.14;margin:10px 0}.hero p{max-width:580px}
+.btn{display:inline-block;margin-top:10px;padding:13px 24px;background:var(--highlight);color:#101820;border:2px solid #095a7a;border-radius:12px;font-weight:750;text-decoration:none}
+.hero-art{min-height:250px;border:2px solid #188aa7;border-radius:26px;background:linear-gradient(145deg,#bdd7f7,#55ceef);display:grid;place-items:center;text-align:center;padding:18px}.hero-art span{font-size:88px;display:block}
+.section-title{margin:42px 0 14px;font-size:25px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--content);border-radius:18px;padding:24px;border:1px solid #8bb5db;box-shadow:0 6px 18px #0b527520}.card .emoji{font-size:42px}.card h3{margin:6px 0}.card p{margin:0}
+.promo{margin-top:28px;border-radius:20px;background:var(--highlight);padding:24px 28px;border:2px solid #157fa5}.promo h2{margin:0 0 6px}.promo p{margin:0}
+footer{background:var(--footer);padding:26px;text-align:center;border-top:2px solid #70b6e3;font-size:14px}.palette{display:flex;max-width:1100px;margin:20px auto 35px;padding:0 18px;gap:8px}.swatch{flex:1;min-width:0}.swatch .color{height:42px;border:1px solid #6d98aa;border-radius:7px}.swatch small{display:block;text-align:center;font-size:12px;margin-top:5px}
+@media(max-width:680px){.hero{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.palette{flex-wrap:wrap}.swatch{min-width:90px}}
+</style>
+</head>
+<body>
+<header><div class="logo">BLUE STUDIO ✦</div><nav><a href="#home">Trang chủ</a><a href="#features">Dịch vụ</a><a href="#sale">Ưu đãi</a><a href="phien-ban-2.html">Phối màu 2 →</a></nav></header>
+<main id="home"><section class="hero"><div><div class="eyebrow">THỰC HÀNH HTML & CSS</div><h1>Thiết kế sáng tạo<br>với sắc xanh</h1><p>Một trang web thực hành phối màu đơn tông. Các khu vực dùng sắc độ xanh khác nhau để tạo sự đồng nhất, rõ ràng và dễ đọc.</p><a class="btn" href="#features">PREVIEW — XEM NGAY</a></div><div class="hero-art"><div><span>🎨</span><strong>MONOCHROMATIC BLUE</strong><p>Màu chủ đạo #00ADEE</p></div></div></section>
+<h2 class="section-title" id="features">Nội dung nổi bật</h2><section class="cards"><article class="card"><div class="emoji">💻</div><h3>Thiết kế web</h3><p>Sử dụng HTML và CSS để xây dựng giao diện đơn giản, hiện đại.</p></article><article class="card"><div class="emoji">🎯</div><h3>Phối màu</h3><p>Kết hợp nhiều sắc độ của cùng một màu chủ đạo để tăng tính nhất quán.</p></article><article class="card"><div class="emoji">✨</div><h3>Trải nghiệm</h3><p>Bố cục sáng sủa, dễ theo dõi và phù hợp cho nhiều kích thước màn hình.</p></article></section>
+<section class="promo" id="sale"><h2>ON SALE / PREVIEW</h2><p>Khối nổi bật sử dụng màu chủ đạo <strong>#00ADEE</strong> để thu hút sự chú ý.</p></section></main>
+<footer>© 2026 BLUE STUDIO · Bài thực hành phối màu đơn tông HTML/CSS</footer>
+<div class="palette"><div class="swatch"><div class="color" style="background:#00ADEE"></div><small>#00ADEE</small></div><div class="swatch"><div class="color" style="background:#00BFF2"></div><small>#00BFF2</small></div><div class="swatch"><div class="color" style="background:#BDD7F7"></div><small>#BDD7F7</small></div><div class="swatch"><div class="color" style="background:#C6E9FA"></div><small>#C6E9FA</small></div></div>
+</body></html>
